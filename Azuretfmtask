@@ -6,7 +6,6 @@ terraform {
     }
   }
 }
-
 provider "azurerm" {
   features {}
 
@@ -57,5 +56,3 @@ tags = {
     Env = "Production"
   }
   }
-  }
-  
