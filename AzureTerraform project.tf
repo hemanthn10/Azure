@@ -52,3 +52,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 tags = {
     Env = "Production"
   }
+    
+  Tages = { Env="Devops"
+    
+  }
